@@ -19,7 +19,7 @@ This project focuses on cleaning and preparing a messy customer sales dataset us
 - Handled negative purchase amounts and extreme outliers.
 - Removed duplicate records.
 - Performed final data quality checks.
-
+-Removed 15 original exact duplicate rows and 171 additional duplicate rows identified after standardization.
 ## Cleaning Results
 
 | Metric | Before Cleaning | After Cleaning |
@@ -27,7 +27,7 @@ This project focuses on cleaning and preparing a messy customer sales dataset us
 | Total Rows | 10,200 | 10,014 |
 | Total Columns | 12 | 12 |
 | Missing Values | 7,804 | 3,050 |
-| Duplicate Rows | 15 | 0 |
+| Duplicate Rows | 186 | 0 |
 
 ## Final Output
 The cleaned dataset is saved as:
